@@ -1,22 +1,26 @@
 <h1>Desafio do bootcamp java Santander</h1>
 
-DIO - Trilha Java Básico <br>
-www.dio.me
+Trilha Java Básico
 
-Autores<br>
-Gleyson Sampaio<br>
-Sintaxe - Desafio<br>
-Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o seguinte cenário.<br>
 
-Crie o projeto ContaBanco que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:<br>
-Revise sobre regras de declaração de variáveis<br>
-(Numero, Agencia, Nome do Cliente, Saldo)<br>
-Revise sobre terminal, main args e a classe Scanner<br>
-<br><br>Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:<br>
-Programa: "Por favor, digite o número da Agência !"<br>
-Usuário: 1021 (depois ENTER para o próximo campo)<br>
-Revise sobre concatenação e classe String com método concat<br><br>
-Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:<br>
-"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".<br>
+Este exercício faz parte da trilha Java Básico da plataforma DIO e foi desenvolvido como parte do módulo de Sintaxe. O objetivo deste projeto é exercitar 
+os conceitos aprendidos no módulo, focando na sintaxe básica da linguagem Java.
 
-Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.<br>
+Professor: 
+- Gleyson Sampaio
+
+Exercício:
+Consiste na criação de um programa Java chamado ContaBanco, que recebe dados 
+via terminal sobre as características de uma conta bancária. 
+
+Principais Tópicos Abordados:
+- Declaração de variáveis em Java
+- Utilização do terminal, args da função main e classe Scanner para entrada de dados do usuário
+- Concatenação de strings e utilização do método concat
+
+Funcionalidades:
+O programa solicita ao usuário que insira as seguintes informações sobre a conta bancária: 
+número da agência, número da conta, nome do cliente e saldo. Cada informação é solicitada 
+individualmente ao usuário através de mensagens específicas. Após receber todas as informações, 
+o sistema exibe uma mensagem de agradecimento ao cliente, junto com os dados inseridos, 
+informando que a conta foi criada com sucesso e está pronta para saque.
